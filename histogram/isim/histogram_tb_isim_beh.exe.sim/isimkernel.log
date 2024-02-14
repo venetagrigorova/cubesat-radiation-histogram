@@ -1,0 +1,29 @@
+Command line:
+   histogram_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50990
+
+Sun Nov 24 16:22:07 2019
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5176.2 Meg
+
+ Total Signals          : 31
+ Total Nets             : 72
+ Total Signal Drivers   : 18
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 24
+ Total Traceable Variables  : 45
+ Total Scalar Nets and Variables : 439
+Total Line Count : 69
+
+ Total Simulation Time: 0.3125 sec
+
+ Current Memory Usage: 4861.62 Meg
+
+Sun Nov 24 19:07:33 2019
+

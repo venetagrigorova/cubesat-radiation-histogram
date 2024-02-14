@@ -1,0 +1,64 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Nov 24 15:21:38 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SRAM_A<0>" LOCATE = SITE "C3" LEVEL 1;
+COMP "SRAM_A<1>" LOCATE = SITE "D3" LEVEL 1;
+COMP "SRAM_A<2>" LOCATE = SITE "E4" LEVEL 1;
+COMP "SRAM_A<3>" LOCATE = SITE "E3" LEVEL 1;
+COMP "SRAM_A<4>" LOCATE = SITE "F4" LEVEL 1;
+COMP "SRAM_A<5>" LOCATE = SITE "J4" LEVEL 1;
+COMP "SRAM_WE" LOCATE = SITE "K5" LEVEL 1;
+COMP "SRAM_A<6>" LOCATE = SITE "J3" LEVEL 1;
+COMP "SYSCLK_N" LOCATE = SITE "A10" LEVEL 1;
+COMP "SRAM_A<7>" LOCATE = SITE "L4" LEVEL 1;
+COMP "SYSCLK_P" LOCATE = SITE "B10" LEVEL 1;
+COMP "SRAM_A<8>" LOCATE = SITE "K3" LEVEL 1;
+COMP "SRAM_A<9>" LOCATE = SITE "L3" LEVEL 1;
+COMP "SRAM_A<10>" LOCATE = SITE "K2" LEVEL 1;
+COMP "SRAM_A<11>" LOCATE = SITE "K1" LEVEL 1;
+COMP "SRAM_A<12>" LOCATE = SITE "J1" LEVEL 1;
+COMP "SRAM_A<20>" LOCATE = SITE "B2" LEVEL 1;
+COMP "SRAM_A<13>" LOCATE = SITE "H1" LEVEL 1;
+COMP "SRAM_A<14>" LOCATE = SITE "H2" LEVEL 1;
+COMP "SRAM_A<15>" LOCATE = SITE "D1" LEVEL 1;
+COMP "SRAM_A<16>" LOCATE = SITE "C1" LEVEL 1;
+COMP "SRAM_A<17>" LOCATE = SITE "C2" LEVEL 1;
+COMP "SRAM_A<18>" LOCATE = SITE "B1" LEVEL 1;
+COMP "SRAM_A<19>" LOCATE = SITE "L1" LEVEL 1;
+COMP "SRAM_IO<0>" LOCATE = SITE "G5" LEVEL 1;
+COMP "SRAM_IO<1>" LOCATE = SITE "G3" LEVEL 1;
+COMP "SRAM_IO<2>" LOCATE = SITE "H4" LEVEL 1;
+COMP "SRAM_IO<3>" LOCATE = SITE "H3" LEVEL 1;
+COMP "SRAM_IO<4>" LOCATE = SITE "G1" LEVEL 1;
+COMP "SRAM_IO<5>" LOCATE = SITE "F1" LEVEL 1;
+COMP "SRAM_CE" LOCATE = SITE "F3" LEVEL 1;
+COMP "SRAM_IO<6>" LOCATE = SITE "F2" LEVEL 1;
+COMP "SRAM_IO<7>" LOCATE = SITE "E1" LEVEL 1;
+COMP "SRAM_OE" LOCATE = SITE "E2" LEVEL 1;
+TIMEGRP TNM_SYSCLK = BEL "histogramInst/HISTOGRAM_STATE_reg_FSM_FFd2" BEL
+        "histogramInst/HISTOGRAM_STATE_reg_FSM_FFd3" BEL
+        "histogramInst/HISTOGRAM_STATE_reg_FSM_FFd5" BEL
+        "histogramInst/HISTOGRAM_STATE_reg_FSM_FFd4" BEL
+        "histogramInst/SRAM_IO_reg_7" BEL "histogramInst/SRAM_IO_reg_6" BEL
+        "histogramInst/SRAM_IO_reg_5" BEL "histogramInst/SRAM_IO_reg_4" BEL
+        "histogramInst/SRAM_IO_reg_3" BEL "histogramInst/SRAM_IO_reg_2" BEL
+        "histogramInst/SRAM_IO_reg_1" BEL "histogramInst/SRAM_IO_reg_0" BEL
+        "histogramInst/SRAM_A_reg_11" BEL "histogramInst/SRAM_A_reg_10" BEL
+        "histogramInst/SRAM_A_reg_9" BEL "histogramInst/SRAM_A_reg_8" BEL
+        "histogramInst/SRAM_A_reg_7" BEL "histogramInst/SRAM_A_reg_6" BEL
+        "histogramInst/SRAM_A_reg_5" BEL "histogramInst/SRAM_A_reg_4" BEL
+        "histogramInst/SRAM_A_reg_3" BEL "histogramInst/SRAM_A_reg_2" BEL
+        "histogramInst/SRAM_A_reg_1" BEL "histogramInst/SRAM_A_reg_0" BEL
+        "histogramInst/TEPC_ADC_reg_11" BEL "histogramInst/TEPC_ADC_reg_10"
+        BEL "histogramInst/TEPC_ADC_reg_9" BEL "histogramInst/TEPC_ADC_reg_8"
+        BEL "histogramInst/TEPC_ADC_reg_7" BEL "histogramInst/TEPC_ADC_reg_6"
+        BEL "histogramInst/TEPC_ADC_reg_5" BEL "histogramInst/TEPC_ADC_reg_4"
+        BEL "histogramInst/TEPC_ADC_reg_3" BEL "histogramInst/TEPC_ADC_reg_2"
+        BEL "histogramInst/TEPC_ADC_reg_1" BEL "histogramInst/TEPC_ADC_reg_0"
+        BEL "histogramInst/SRAM_OE_reg" BEL "histogramInst/SRAM_WE_reg" BEL
+        "clk_BUFG";
+TS_SYSCLK = PERIOD TIMEGRP "TNM_SYSCLK" 10 ns HIGH 50%;
+SCHEMATIC END;
+

@@ -1,0 +1,40 @@
+# System Clock
+NET "SYSCLK_P" 		LOC = "B10"	| IOSTANDARD = LVDS_33 | DIFF_TERM = TRUE | TNM_NET = TNM_SYSCLK;
+NET "SYSCLK_N" 		LOC = "A10"	| IOSTANDARD = LVDS_33 | DIFF_TERM = TRUE;
+
+TIMESPEC TS_SYSCLK = PERIOD "TNM_SYSCLK" 10 ns HIGH 50%;
+
+NET SRAM_WE          LOC = "K5"    |    IOSTANDARD = LVTTL;
+NET SRAM_OE          LOC = "E2"    |    IOSTANDARD = LVTTL;
+NET SRAM_CE          LOC = "F3"    |    IOSTANDARD = LVTTL;
+
+NET SRAM_IO<7>       LOC = "E1"    |    IOSTANDARD = LVTTL;
+NET SRAM_IO<6>       LOC = "F2"    |    IOSTANDARD = LVTTL;
+NET SRAM_IO<5>       LOC = "F1"    |    IOSTANDARD = LVTTL;
+NET SRAM_IO<4>       LOC = "G1"    |    IOSTANDARD = LVTTL;
+NET SRAM_IO<3>       LOC = "H3"    |    IOSTANDARD = LVTTL;
+NET SRAM_IO<2>       LOC = "H4"    |    IOSTANDARD = LVTTL;
+NET SRAM_IO<1>       LOC = "G3"    |    IOSTANDARD = LVTTL;
+NET SRAM_IO<0>       LOC = "G5"    |    IOSTANDARD = LVTTL;
+
+NET SRAM_A<20>       LOC = "B2"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<19>       LOC = "L1"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<18>       LOC = "B1"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<17>       LOC = "C2"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<16>       LOC = "C1"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<15>       LOC = "D1"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<14>       LOC = "H2"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<13>       LOC = "H1"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<12>       LOC = "J1"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<11>       LOC = "K1"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<10>       LOC = "K2"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<9>        LOC = "L3"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<8>        LOC = "K3"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<7>        LOC = "L4"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<6>        LOC = "J3"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<5>        LOC = "J4"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<4>        LOC = "F4"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<3>        LOC = "E3"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<2>        LOC = "E4"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<1>        LOC = "D3"    |    IOSTANDARD = LVTTL;
+NET SRAM_A<0>        LOC = "C3"    |    IOSTANDARD = LVTTL;

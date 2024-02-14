@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/home/ise/Documents/histogram/histogram.xst" -ofn "/home/ise/Documents/histogram/histogram.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/histogram/histogram.xst" -ofn "/home/ise/Documents/histogram/histogram.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/histogram/histogram.xst" -ofn "/home/ise/Documents/histogram/histogram.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/histogram/histogram.xst" -ofn "/home/ise/Documents/histogram/histogram.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/histogram/histogram.xst" -ofn "/home/ise/Documents/histogram/histogram.syr" 
